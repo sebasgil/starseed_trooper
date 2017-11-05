@@ -1,0 +1,7 @@
+The script in this site may be useful towards implementing the wheel I want to make :)
+
+http://wheelnavjs.softwaretailoring.net/examples.html
+
+The repository is available here:
+
+https://github.com/softwaretailoring/wheelnav
