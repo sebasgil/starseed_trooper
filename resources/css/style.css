@@ -1,14 +1,79 @@
+/* Landing Page */
+
 * {
   background-color: #1f1f1f;
   text-align: center;
   color: #509ad3;
 }
 
-ul {
-  list-style-type: none;
+ul li {
+  display: inline;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .poem
  {
    text-align: center;
  }
+
+ #landing {
+   /*border: 1px dashed #509ad3;*/
+   text-align: center;
+   width: 200px;
+ }
+
+#archetypes {
+    text-align: center;
+    /* golden ratio! */
+    width: 800px;
+    height: 494px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+
+}
+
+#archetypes .top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#archetypes .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#archetypes .bottom .icon {
+  margin: 0px 30px;
+}
+
+#archetypes .icon {
+    height: 225px;
+    width: 225px;
+    border: 1px dashed #509ad3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#archetypes .icon img {
+  max-width: 205px;
+  max-height: 205px;
+}
+
+#quill {
+  border: none !important;
+}
