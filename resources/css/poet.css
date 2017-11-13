@@ -11,3 +11,25 @@ background-color: #AD7D35;
 color: #F2CE98;
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+a {
+  color: #FBE2B5;
+}
+
+/* The Mereological Simple */
+
+h2 {
+  color: #272017;
+  text-align: right;
+}
+
+/*.poem {
+  border: 1px dashed black;
+
+}
+*/
+#dot {
+
+  display: flex;
+  justify-content: center;
+}
