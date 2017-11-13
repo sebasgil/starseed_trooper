@@ -1,0 +1,13 @@
+/* Palette Colors
+Peru: #D36038
+Dark Olive Green I: #291A13
+Dark Olive Green II: #4B4730
+Light Gray: #DED7C8
+Gray: #938A63
+*/
+
+html {
+  background-color: #291A13;
+  color: #DED7C8;
+  font-family: Arial, Helvetica, sans-serif;
+}

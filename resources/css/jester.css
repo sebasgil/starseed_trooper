@@ -1,0 +1,13 @@
+/* Palette Colors
+Fire Brick: #C32814
+Saddle Brown: #82230E
+Black: #221716
+Burly Wood: #D8D961
+Yellow Green: #89AD35
+*/
+
+html {
+  background-color: #82230E;
+  color: #89AD35;
+  font-family: Verdana, Geneva, sans-serif;
+}

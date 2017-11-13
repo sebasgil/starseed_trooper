@@ -1,0 +1,13 @@
+/* Palette Colors
+Blue: #3B1DFB
+Orange: #FAB11D
+Dodger Blue: #1FB1F8
+Powder Blue: #C3E9CA
+Sky Blue: #6BDCE8
+*/
+
+html {
+  background-color: #1FB1F8;
+  color: #C3E9CA;
+  font-family: "Lucida Console", Monaco, monospace;
+}
