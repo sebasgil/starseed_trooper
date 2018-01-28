@@ -19,25 +19,23 @@
   <script type="text/javascript">
       window.onload = function () {
           var wheel = new wheelnav("wheelDiv");
-          //This is the place for code snippets from the documentation -> http://wheelnavjs.softwaretailoring.net/documentation.html
           wheel.spreaderEnable = true;
-          wheel.clickModeSpreadOff = true;
+          // wheel.colors= colorpalette;
+          wheel.wheelRadius = 250;
           wheel.createWheel(["Hugo", "Sebas", "Fabi", "Wallace"]);
           wheel.navigateWheel(2);
-          //Insert generated JavaScript code from here -> http://pmg.softwaretailoring.net
       };
   </script>
   <!-- Add custom CSS -->
   <link href="./resources/css/landing.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1> Welcome back my friends to the show that never ends! </h1>
     <div class="container-fluid" id="portal">
       <!-- The wheel wheelnav will be implemented here! -->
       <div id="wheelDiv"></div>
     </div>
   <footer>
-    <img src="./resources/images/logo.png">
+    <!-- <img src="./resources/images/logo.png"> -->
   </footer>
   <!-- Add Necessary JQuery and JS scripts for bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

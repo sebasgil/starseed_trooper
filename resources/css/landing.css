@@ -8,6 +8,9 @@ html {
 }
 
 body {
+  background-image: url('../images/NGC3201_background.png');
+  background-size: cover;
+  background-position: center;
   background-color: #1f1f1f;
   color: #509ad3;
   display: flex;
