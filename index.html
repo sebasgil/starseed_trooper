@@ -20,6 +20,8 @@
       window.onload = function () {
           var wheel = new wheelnav("wheelDiv");
           //This is the place for code snippets from the documentation -> http://wheelnavjs.softwaretailoring.net/documentation.html
+          wheel.spreaderEnable = true;
+          wheel.clickModeSpreadOff = true;
           wheel.createWheel(["Hugo", "Sebas", "Fabi", "Wallace"]);
           wheel.navigateWheel(2);
           //Insert generated JavaScript code from here -> http://pmg.softwaretailoring.net
