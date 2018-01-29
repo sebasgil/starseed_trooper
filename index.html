@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width" name="viewport">
-  <title>Project Starseed</title>
+  <title>Project Star Seed</title>
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <!-- Add bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
     crossorigin="anonymous">
+  <!-- Add Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <!-- Add Font Awesome Icons -->
   <script src="https://use.fontawesome.com/9d7d82bf3e.js"></script>
   <!-- Add wheelnav scripts -->
@@ -19,24 +21,31 @@
   <script type="text/javascript">
       window.onload = function () {
           var wheel = new wheelnav("wheelDiv");
+          wheel.slicePathFunction = slicePath().MenuSlice;
+          wheel.spreaderPathFunction = spreaderPath().HolderSpreader;
+          wheel.clickModeRotate = true;
           wheel.spreaderEnable = true;
-          // wheel.clickModeSpreadOff = true;
-          // wheel.colors= colorpalette;
+          // wheel.clickModeSpreadOff = false;
+          wheel.colors = ['#509ad3'];
           wheel.wheelRadius = 250;
-          wheel.createWheel(["Hugo", "Sebas", "Fabi", "Wallace"]);
-          wheel.navigateWheel(2);
+          // How to replace these with icons and add links to them?
+          // Follow instructions here to make custom icons!
+          // https://stackoverflow.com/questions/30591371/how-can-i-add-my-own-icon-to-raphaels-free-icon-stock
+          wheel.createWheel([icon.pen, icon.githubalt, icon.facebook, icon.picture, icon.lab, icon.music]);
+          // wheel.navigateWheel(2);
       };
   </script>
   <!-- Add custom CSS -->
   <link href="./resources/css/landing.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+  <h1 class="text-center">Project Star Seed</h1>
     <div class="container-fluid" id="portal">
       <!-- The wheel wheelnav will be implemented here! -->
       <div id="wheelDiv"></div>
     </div>
     <footer class="text-right">
-      <p>Copyright &copy; 2018 Sebastian Gil. All rights reserved.<br>
+      <p>Copyright &copy; 2018 Sebastián Gil. All rights reserved.<br>
     The background image is NGC3201 taken with the UBC Southern Observatory Telescope.
      </p>
     </footer>

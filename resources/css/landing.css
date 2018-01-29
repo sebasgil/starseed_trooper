@@ -19,6 +19,11 @@ footer {
   height: 100%;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+}
+
 /* Wheel Nav Styles */
 
 #wheelDiv {
